@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+}
+
+.containerTitleAndButton {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.containerTitle {
+  display: flex;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-font-color);
+  background-color: var(--third-background);
+  font-size: 18px;
+  border: 2px solid var(--main-font-color);
+  border-radius: 4px;
+}
+
+.containerButtons {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+.buttonAuth {
+  display: flex;
+  width: 72px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-font-color);
+  background-color: var(--second-background);
+  font-size: 12px;
+  border: 2px solid var(--main-font-color);
+  border-radius: 4px;
+}
+
+.buttonDisabled {
+  opacity: 0.5;
+}
+
+.buttonDeAuth {
+  display: flex;
+  width: 72px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-font-color);
+  background-color: var(--thour-background);
+  font-size: 12px;
+  border: 2px solid var(--main-font-color);
+  border-radius: 4px;
+}
+.containerButtonChange {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+.buttonChange {
+  display: flex;
+  width: 100px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-font-color);
+  background-color: var(--five-background);
+  font-size: 12px;
+  border: 2px solid var(--main-font-color);
+  border-radius: 4px;
+}
